@@ -1,0 +1,204 @@
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important;
+  }
+}
+
+.view,
+body,
+html {
+  height: 100%
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, .2)
+}
+
+.page-footer,
+.top-nav-collapse {
+  background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+  .navbar {
+    background-color: #1C2331
+  }
+}
+
+.nav-link {
+  font-size: 25px;
+}
+
+.navbar-nav>li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-nav>li>a:hover {
+  color: orange !important;
+}
+
+
+.navbar-brand img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+  padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  padding: 10px;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding: 15px;
+  font-family: cursive;
+}
+
+p {
+  color: rgb(255, 255, 255);
+
+}
+
+
+.row h3 {
+  display: block;
+  position: relative;
+  color: white;
+  padding: 9px 14px;
+  transition: 0.8s;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.row h3:hover,
+.row>h3 {
+  color: orange;
+}
+
+
+.jumbotron p {
+  color: black;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-indent: 40px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .about .content,
+  .about,
+  .about content p {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .about .content {
+    padding-top: 30px;
+
+  }
+}
+
+.how-section1 {
+  padding: 10%;
+  margin-top: -15%;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.how-section1 h4 {
+  color: #ffa500;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.how-section1 .subheading {
+  color: #3931af;
+  font-size: 20px;
+}
+
+.how-section1 .row {
+  margin-top: 10%;
+}
+
+.how-img {
+  text-align: center;
+}
+
+.how-img img {
+  width: 150%;
+}
+
+.how-section1 p span {
+  color: rgb(14, 83, 5);
+  font-weight: 800;
+}
+
+.page-footer {
+  color: black;
+  font-size: 25px;
+  background-color: wheat;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-copyright,
+a {
+  font-family: "Poppins", sans-serif;
+}
